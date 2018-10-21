@@ -4,7 +4,7 @@ fun menu(): String {
         Menu:
         1. Ocurrieron muertes
         2. Matan torres
-    """
+    """.trimIndent()
 }
 fun main(args: Array<String>) {
     val hero1 = Hero("Abaddon", "Strength")
@@ -33,6 +33,8 @@ fun main(args: Array<String>) {
     allTeams.add(Team("Dire"))
 
     
+
+
 
 
 }

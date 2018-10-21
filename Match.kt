@@ -20,10 +20,12 @@ class Match<T>: Narrator {
     fun towerIsKilled(esRadiant: Boolean) {
 
     }
-    fun sayWinner() {
+    fun direWinner() {
+        winner = "Dire"
 
     }
     fun radiantWinner() {
+        winner = "Radiant"
 
     }
 }

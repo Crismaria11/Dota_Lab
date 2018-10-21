@@ -1,2 +1,2 @@
-data class Hero (val name: String, val agility: Int = 0, val strength: Int = 0) {
+data class Hero (val name: String, val kind: String) {
 }
